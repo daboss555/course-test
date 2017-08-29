@@ -1,0 +1,59 @@
+* {
+	box-sizing: border-box;
+}
+
+section {
+	background-color: gray;
+	position: relative;
+	border: 1px solid black;
+	padding: 30px;
+	margin: 18px;
+}
+
+section > div {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	border-left: 1px solid black;	
+	border-bottom: 1px solid black;
+	padding: 4px 10px 4px 10px;
+}
+
+h1 {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.pink {
+	background-color: pink;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.row {
+	width: 100%;
+}
+
+@media (min-width: 1200px) {
+	.col-lg-4 {
+		float: left;
+		width: 30%;
+	}
+}
+
+@media (min-width: 950px) and (max-width: 1199px) {
+	.col-md-6 {
+		float: left;
+		width: 45%;
+	}
+	#p3 {
+		width: 94%;
+		align-self: center;
+	}
+}
