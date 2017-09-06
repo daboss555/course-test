@@ -40,7 +40,7 @@ section div { /*properties of section title*/
 	margin-top: -15px;
 }
 
-@media (max-width: 768px){ /*sets background color within navigation button to white*/
+@media (max-width: 767px){ /*sets background color within navigation button to white*/
 	#collapsable-nav{
 		background-color: white;
 	}
