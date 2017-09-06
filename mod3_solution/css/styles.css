@@ -1,0 +1,47 @@
+#header-nav { /*navigation bar properties*/
+	background-color: gray;
+	border-radius: 0;
+	border: 1px solid black;
+}
+
+.navbar-brand span{ /*navigation bar text properties*/
+	color: black;
+	font-weight: bold;
+}
+
+#nav-list { /*navigation button's contained text properties*/
+  margin-top: 10px;
+}
+
+li div { /*text within navigation button is centered*/
+	text-align: center;
+}
+
+section { /*properties of main gray section and text within*/
+	height: 1000px;
+	background-color: gray;
+	padding: 10px;
+	font: serif;
+	color: black;
+}
+
+section div { /*properties of section title*/
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 2em;
+}
+
+.jumbotron { /* background properties of the overall heading container*/
+	background-color: white;
+}
+
+.jumbotron h1 { /*margin properties of the heading container*/
+	margin-bottom: 20px;
+	margin-top: -15px;
+}
+
+@media (max-width: 768px){ /*sets background color within navigation button to white*/
+	#collapsable-nav{
+		background-color: white;
+	}
+}
