@@ -13,10 +13,6 @@
   margin-top: 10px;
 }
 
-li div { /*text within navigation button is centered*/
-	text-align: center;
-}
-
 section { /*properties of main gray section and text within*/
 	height: 1000px;
 	background-color: gray;
